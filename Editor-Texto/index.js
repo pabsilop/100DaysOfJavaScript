@@ -7,7 +7,7 @@ let linkButton = document.getElementById("createLink")
 let alingButtons = document.querySelectorAll(".align")
 let spacingButtons = document.querySelectorAll(".spacing")
 let formatButtons = document.querySelectorAll(".format")
-let scriptBuuttons = document.querySelectorAll(".script")
+let scriptButtons = document.querySelectorAll(".script")
 
 let fontList = [
     "Arial",
@@ -30,7 +30,7 @@ const initializer = () => {
         option.value = value
         option.innerHTML = value
         fontName.appendChild(option)
-    })
+    });
 
     for(let i = 1; i <= 7; i++) {
         let option = document.createElement("option")
